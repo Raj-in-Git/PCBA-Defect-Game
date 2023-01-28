@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defect Identification quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1 id="title">PCBA DEFECT IDENTIFICATION GAME</h1>
+    <!-- <h1 class="head"> </h1> -->
+    <div id="start">
+        <h1 id="getName">Enter your Name</h1>
+        <input type="text" id="name"> </input>
+        <button id="startTest">
+            Start
+        </button>
+    </div>
+    <div class="box" id="game">
+        <div class="qna">
+            <h1>Identify</h1>
+
+        </div>
+        <div class="img">
+            <img src="img/pcba.jpeg" alt="">
+        </div>
+        <div class="input">
+            <input id="scan" type="text" name="" ></input>
+        </div>
+        <div class="footer">
+            <div class="que" id="rem">
+                   <p> <span class="no">1 </span> of <span>16</span> Questions </p> 
+            </div>
+            <div class="btn">
+                <button id="next">Next</button>
+                </div>
+        </div>
+    </div>
+   <div class="score" id="score_sheet">
+        <img src="https://cdn-icons-png.flaticon.com/128/91/91202.png" alt="">
+        <h1 id="final_score"></h1>
+        <button id="btn_restart">Restart</button>
+   </div>
+    <script src="index.js"></script>
+</body>
+</html>
