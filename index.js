@@ -24,7 +24,7 @@ document.getElementById("name").addEventListener("keyup",(event) => {
 });
 
 document.getElementById("startTest").addEventListener("click",function(){
-        if(data.value != ""){
+        if(givenName.value != ""){
             startGame();
         }
         else{
